@@ -1,0 +1,12 @@
+on: [push]
+jobs:
+  checkout-osvvm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: '⚙️ Setup GHDL'
+        uses: ghdl/setup-ghdl-ci@master
+      - name: '🧰 Checkout'
+        uses: actions/checkout@v3
+        with:
+          path: OsvvmLibraries
+          submodules: recursive
