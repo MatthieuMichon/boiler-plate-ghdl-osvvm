@@ -2,6 +2,9 @@ on: [push]
 jobs:
   checkout-osvvm:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ghdl_only_testbench
     steps:
       - name: '🧰 Checkout'
         uses: actions/checkout@v3
@@ -13,4 +16,4 @@ jobs:
           path: OsvvmLibraries
           submodules: recursive
       - name: 'Build'
-        run: ls -l
+        run: make
