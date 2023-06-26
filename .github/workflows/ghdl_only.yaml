@@ -2,9 +2,6 @@ on: [push]
 jobs:
   checkout-osvvm:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./ghdl_only_testbench
     steps:
       - name: '⚙️ Setup GHDL'
         uses: ghdl/setup-ghdl-ci@master
