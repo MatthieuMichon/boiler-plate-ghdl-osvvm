@@ -3,9 +3,11 @@ jobs:
   checkout-osvvm:
     runs-on: ubuntu-latest
     steps:
+      - name: '🧰 Checkout'
+        uses: actions/checkout@v3
       - name: '⚙️ Setup GHDL'
         uses: ghdl/setup-ghdl-ci@master
-      - name: '🧰 Checkout'
+      - name: '🧰 Checkout OSVVM'
         uses: actions/checkout@v3
         with:
           path: OsvvmLibraries
