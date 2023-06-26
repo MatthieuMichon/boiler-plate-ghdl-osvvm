@@ -10,7 +10,10 @@ Test case by combining the [OSVVM][osvvm] VHDL-2008 library and the [GHDL][ghdl]
 
 | Task | Status |
 | ---- | ------ |
-| Dependencies | [![.github/workflows/actions.yaml](https://github.com/MatthieuMichon/boiler-plate-ghdl-osvvm/actions/workflows/deps.yaml/badge.svg?branch=main)](https://github.com/MatthieuMichon/boiler-plate-ghdl-osvvm/actions/workflows/deps.yaml) |
+| Dependencies | [![.github/workflows/deps.yaml](https://github.com/MatthieuMichon/boiler-plate-ghdl-osvvm/actions/workflows/deps.yaml/badge.svg?branch=main)](https://github.com/MatthieuMichon/boiler-plate-ghdl-osvvm/actions/workflows/deps.yaml) |
+| GHDL only TB | [![.github/workflows/ghdl_only.yaml](https://github.com/MatthieuMichon/boiler-plate-ghdl-osvvm/actions/workflows/ghdl_only.yaml/badge.svg?branch=main)](https://github.com/MatthieuMichon/boiler-plate-ghdl-osvvm/actions/workflows/ghdl_only.yaml) |
+
+
 
 [//]: # (External references)
 
