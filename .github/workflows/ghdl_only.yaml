@@ -13,4 +13,4 @@ jobs:
           path: OsvvmLibraries
           submodules: recursive
       - name: 'Build'
-        run: ls -l ../
+        run: ls -l
